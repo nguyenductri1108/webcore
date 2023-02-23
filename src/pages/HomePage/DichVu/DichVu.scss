@@ -1,0 +1,7 @@
+.dichvuItem{
+    position: relative;
+    &:hover{
+        box-shadow: 1px 1px 10px #000;
+        cursor: pointer;
+    }
+}

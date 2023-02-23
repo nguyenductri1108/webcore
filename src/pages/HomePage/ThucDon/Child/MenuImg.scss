@@ -1,0 +1,10 @@
+.mySwiper1  {
+    .swiper-button-prev,.swiper-button-next{
+scale: 1;
+    &:hover{
+        scale: 1.3;
+    }
+    transition: all 0.1s ease-in-out
+    }
+    
+}

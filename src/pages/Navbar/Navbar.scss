@@ -1,0 +1,14 @@
+.header-text { 
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.item-menu-header{
+    text-align: left;
+    padding: 12px 0;
+    &+&{
+        border-top: 1px solid #ccc;
+    }
+}
+
